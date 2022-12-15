@@ -95,3 +95,37 @@ span{
     border: 7px solid #b5b1b3;
     height: 520px; 
 }
+
+.career{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.career img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.career-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.career-info h2{
+    font-size: 2em;
+    color: #a30233;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: #b5b1b3;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+
+.career p{
+    margin-bottom: 1em;
+}
