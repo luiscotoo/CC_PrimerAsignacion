@@ -29,7 +29,7 @@ body {
 }
 
 .brand span{
-    color: gray;
+    color: #000000;
 }
 
 .menu {
@@ -40,6 +40,7 @@ body {
 
 .menu li{
     list-style: none;
+    font-size: 1.5em;
 }
 
 .menu a{
@@ -49,11 +50,12 @@ body {
 }
 
 .menu .active{
-    color: #b5b1b3;
+    color: #a30233;
+    background-color: #000000;
 }
 
 .menu :hover{
-    background-color: #b5b1b3;
+    background-color: #000000;
     color: #a30233;
     transition: ease-in .2s;
 }
