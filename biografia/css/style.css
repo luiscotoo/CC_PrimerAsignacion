@@ -96,24 +96,24 @@ span{
     height: 520px; 
 }
 
-.career{
+.expect{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
 }
 
-.career img{
+.expect img{
     width: 100%;
     grid-column: 1/5;
 }
 
-.career-info{
+.expect-info{
     grid-column: 5/10;
     padding: 3em;
 }
 
-.career-info h2{
+.expect-info h2{
     font-size: 2em;
     color: #a30233;
 }
@@ -126,7 +126,7 @@ span{
     margin-bottom: 3em;
 }
 
-.career p{
+.expect p{
     margin-bottom: 1em;
 }
 
@@ -143,6 +143,7 @@ span{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
 
 }
 
@@ -171,7 +172,7 @@ span{
 .card__img {
   width: 100%;
   height: 150px;
-  background-image: url(https://res.cloudinary.com/freelancer2222222222222222/image/upload/v1650543491/samples/2-original_agisst.png);
+  background-image: url(https://www.digitalcastaway.com/wp-content/uploads/2021/10/971-Escalado-640x360.jpg);
   background-size: cover;
 }
 
@@ -190,6 +191,81 @@ span{
 }
 
 .card__proyect-links i {
+  font-size: 1.5em;
+}
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+.project-details-button a {
+  text-decoration: none;
+  color: #191c32;
+}
+
+
+.frameworks,
+.contact-section {
+  width: 100vw;
+  background-color: #79062a;
+  color: #fff;
+}
+
+.frameworks-heading {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.frameworks-heading h2,
+.contact-heading h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.frameworks .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2 {
+  width: 300px;
+  background-color: #2c010f;
+  margin: 1em;
+}
+
+.card__img2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(https://media.istockphoto.com/id/1337329904/es/foto/imagen-de-fondo-de-cifrado-de-codificaci%C3%B3n-digital-de-seguridad-cibern%C3%A9tica.jpg?b=1&s=170667a&w=0&k=20&c=Pzg_3mgl0Y5U9MDOLXAimfLfzUqIg_bJU-px501wuIA=);
+  background-size: cover;
+}
+
+.card__title2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.card__proyect-links2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__proyect-links2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card__proyect-links2 i {
   font-size: 1.5em;
 }
 
