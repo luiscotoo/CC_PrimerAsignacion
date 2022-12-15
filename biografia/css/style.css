@@ -282,7 +282,7 @@ span{
 
 .cont{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: #060155;
     color: #fff;
 }
@@ -308,3 +308,39 @@ span{
 .hobbies-info p{
     margin-top: 10px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: #a30233;
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;
+  }
+
+  .sotial-networks a{
+    text-decoration: none;
+    color: black;
+  }
